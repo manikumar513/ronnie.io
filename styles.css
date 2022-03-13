@@ -1,0 +1,135 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:#0f0d0d;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #b45959;
+}
+body{
+    margin: 10px;
+    /* modify background color here*/
+    background-color:#92eb5f;
+    
+}
+
+a:seen{
+    color:aqua
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 120px;
+    font-family: sans-serif;
+    
+    
+}
+.grid img{
+    border: 2px solid #af1c1c;
+    border-radius: 50px;
+}
+.origami {
+    
+    border-radius: 20px;
+    background-color: #aa00ff;
+    /* modify margin and padding here*/
+    padding: 30px;
+    margin: 25px;
+    width:300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.origamr{
+border-radius: 30px;
+background-color:#25d47c36;
+padding:30px;
+margin:30px;
+width:150px;
+font-family:fantasy;
+
+}
+.origami:hover{
+    transform:scale(1.2);
+    background-color: rgb(170, 253, 115);
+    color: #aa00ff;
+
+}
+
+.origamr:hover{
+    transform:scale(1.2)
+
+    
+
+}
+
+.cn{
+    font: size 120px;;
+}
+
+ .bodyImg,p{
+    font-size: 90px;
+    font-style: calc();
+    height: auto;
+    width: auto;
+    animation-name: unset;
+}
+
+.container{
+    min-height:20vh;
+    background-color: black;
+    color: rgb(240, 245, 235);
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 120%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('bg.jpg');
+  
+}
+
+.container li{
+    min-height: 72vh;
+    background-color: black;
+    color: rgb(240, 245, 235);
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin:  50;
+   width: 120%;
+   border-radius: 12px;
+   padding: 74px;
+   font-size: 30px;
+   color: #92eb5f;
+   
+  
+}
+
+.jankari{
+    height: 100px;
+    display:flex;
+    background-color: rgb(245, 248, 245);
+    width: 500px;
+    color: black;
+    margin: 500px 0;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 34px;
+}
+
+
+
+.songName{
+flex-wrap: wrap;
+display: flex;
+margin: auto;
+padding: 20px;
+font-size: 30px;
+color: #000000;
+justify-content: flex-end;
+}
+
+
